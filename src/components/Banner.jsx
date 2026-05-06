@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Backg from '../assets/Background.png'
 import Btn from './Btn'
 import imgg1 from '../assets/auth1.png'
@@ -13,6 +13,47 @@ const CountDownBox = ({ number, text }) => {
       <span className='text-white'>{text}</span>
     </div>
 
+  )
+}
+
+const CountDown = ({ targetDate }) => {
+
+  const tttimeLeft = () => {
+    const difference = new Date(targetDate) - new Date()
+
+    if (difference > 0) {
+      return {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor(difference / (1000 * 60 * 60) % 24),
+        minutes: Math.floor(difference / (1000 * 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+
+      }
+    }
+
+    return {
+      days: 0, hours: 0, minutes: 0, seconds: 0
+    }
+
+  }
+
+  const [timeLeft, settimeLeft] = useState(tttimeLeft())
+
+
+  useEffect(() => {
+    const timer = setInterval(()=> {
+      settimeLeft(tttimeLeft)
+    }, 1000);
+    return ()=> clearInterval(timer)
+  }, [])
+
+  return (
+    <div className='flex justify-center gap-7.5'>
+      <CountDownBox number={timeLeft.days} text="Days" />
+      <CountDownBox number={timeLeft.hours} text="Hours" />
+      <CountDownBox number={timeLeft.minutes} text="Minutes" />
+      <CountDownBox number={timeLeft.seconds} text="Seconds" />
+    </div>
   )
 }
 
@@ -43,12 +84,7 @@ const Banner = () => {
           <div>
             <h2 className='text-5 leading-5.5 font-bold pt-15 pb-10'>Upcoming Speaker Reveal - Don't Miss Out</h2>
           </div>
-          <div className='flex justify-center gap-7.5'>
-            <CountDownBox number={225} text="Days" />
-            <CountDownBox number={225} text="Days" />
-            <CountDownBox number={225} text="Days" />
-            <CountDownBox number={225} text="Days" />
-          </div>
+          <CountDown targetDate={"2026-05-27T23:59:59"} />
         </div>
       </div>
     </div>
