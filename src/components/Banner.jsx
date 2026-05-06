@@ -6,6 +6,16 @@ import imgg2 from '../assets/auth2.png'
 import imgg3 from '../assets/auth3.png'
 import Link from '../assets/Link.png'
 
+const CountDownBox = ({ number, text }) => {
+  return (
+    <div className='w-[125px] h-[119px] flex items-center justify-center flex-col bg-white/10 rounded-[20px]'>
+      <strong className='font-bold text-[40px] text-white'>{number}</strong>
+      <span className='text-white'>{text}</span>
+    </div>
+
+  )
+}
+
 const Banner = () => {
   return (
     <div className="bg-[url(./assets/Background.png)] bg-cover bg-centre bg-no-repeat pt-75">
@@ -31,7 +41,13 @@ const Banner = () => {
 
           </div>
           <div>
-            <h2 className='text-5 leading-5.5 font-bold pt-15 pb-75'>Upcoming Speaker Reveal - Don't Miss Out</h2>
+            <h2 className='text-5 leading-5.5 font-bold pt-15 pb-10'>Upcoming Speaker Reveal - Don't Miss Out</h2>
+          </div>
+          <div className='flex justify-center gap-7.5'>
+            <CountDownBox number={225} text="Days" />
+            <CountDownBox number={225} text="Days" />
+            <CountDownBox number={225} text="Days" />
+            <CountDownBox number={225} text="Days" />
           </div>
         </div>
       </div>
