@@ -8,7 +8,7 @@ import Link from '../assets/Link.png'
 
 const CountDownBox = ({ number, text }) => {
   return (
-    <div className='w-[125px] h-[119px] flex items-center justify-center flex-col bg-white/10 rounded-[20px]'>
+    <div className='w-31.25 h-29.75 flex items-center justify-center flex-col bg-white/10 rounded-[20px]'>
       <strong className='font-bold text-[40px] text-white'>{number}</strong>
       <span className='text-white'>{text}</span>
     </div>
@@ -48,7 +48,7 @@ const CountDown = ({ targetDate }) => {
   }, [])
 
   return (
-    <div className='flex justify-center gap-7.5'>
+    <div className='flex justify-center gap-7.5 pb-37.5'>
       <CountDownBox number={timeLeft.days} text="Days" />
       <CountDownBox number={timeLeft.hours} text="Hours" />
       <CountDownBox number={timeLeft.minutes} text="Minutes" />
