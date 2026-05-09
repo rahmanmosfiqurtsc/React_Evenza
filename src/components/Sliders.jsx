@@ -8,11 +8,11 @@ const Sliders = ()=> {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 300,
     cssEase: "linear"
   };
   return (
