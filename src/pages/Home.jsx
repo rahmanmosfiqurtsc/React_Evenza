@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import Scroller from '../components/Scroller'
 import Sliders from '../components/Sliders'
 import PicBox from '../components/PicBox'
+import Feature from '../components/Feature'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner />
       <Sliders />
       <PicBox />
+      <Feature />
     </div>
   )
 }

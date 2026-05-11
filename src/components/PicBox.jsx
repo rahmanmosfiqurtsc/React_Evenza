@@ -10,27 +10,27 @@ import Cont3 from '../assets/Cont3.png'
 
 const PicBox = () => {
   return (
-    <div className='container pt-25 flex justify-between gap-[45px]'>
-      <div className='w-[750px]'>
+    <div className='container pt-25 flex justify-between gap-11.25'>
+      <div className='w-187.5'>
         <div className='flex relative'>
           <div >
             <img src={Pplimg} />
           </div>
-          <div className='absolute ml-[352px] mt-[175px]'>
+          <div className='absolute ml-88 mt-43.75'>
             <img src={Overly} />
           </div>
-          <div className='absolute ml-[112.5px] mt-[460px]'>
+          <div className='absolute ml-[112.5px] mt-115'>
             <div className='relative flex'>
               <img src={Yearsimg} />
-              <div className='absolute bg-[#F6F6F7] rounded-[47px] mt-[53px] ml-[53px] w-[94px] h-[94px] justify-center items-center flex'>
+              <div className='absolute bg-[#F6F6F7] rounded-[47px] mt-13.25 ml-13.25 w-23.5 h-23.5 justify-center items-center flex'>
                 <h2 className='font-bold leading-9.25 text-[34px]'>25+</h2>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='w-[750px]'>
-        <div className='flex gap-[6px] items-center pb-2.5'>
+      <div className='w-187.5'>
+        <div className='flex gap-1.5 items-center pb-2.5'>
           <img src={Dott} />
           <h6 className='font-semibold text-[14px]'>About Us</h6>
         </div>
@@ -43,11 +43,11 @@ const PicBox = () => {
         </div>
         <div>
           <p className='leading-[25.6px] text-[#737681] text-justify'>Our vision is to build a global community where collaboration fuels innovation we aim encourage fresh thinking, spark inspiring dialogues, and create a space.</p>
-          <div className='flex gap-[30px] my-[42px]'>
+          <div className='flex gap-7.5 my-10.5'>
             <img src={Cont1} />
             <img src={Cont2} />
           </div>
-          <div>
+          <div className='pb-25'>
             <img src={Cont3} />
           </div>
         </div>
