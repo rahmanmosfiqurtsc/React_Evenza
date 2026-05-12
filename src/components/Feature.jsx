@@ -40,8 +40,8 @@ const Feature = () => {
         />
 
       </div>
-      <h5 className='text-white mt-[62px] text-center mx-auto'>Join our team and help weave innovation, quality, and success together worldwide.</h5>
-      <div className='text-white mt-[23px] text-center mx-auto flex items-center justify-center gap-[13px]'>
+      <h5 className='text-white mt-15.5 text-center mx-auto'>Join our team and help weave innovation, quality, and success together worldwide.</h5>
+      <div className='text-white mt-5.75 text-center mx-auto flex items-center justify-center gap-3.25 pb-25'>
         <p>4.9/5</p>
         <div className='flex'>
         <img src={STAR} />
