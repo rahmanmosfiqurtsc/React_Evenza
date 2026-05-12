@@ -61,7 +61,7 @@ const Banner = () => {
   return (
     <div className="bg-[url(./assets/Background.png)] bg-cover bg-centre bg-no-repeat pt-75">
       <div className='container'>
-        <div className='flex text-white justify-center font-semibold text-[14px]'>
+        <div className='flex text-white justify-center font-semibold text-[14px] bg-white/10 w-[242px] items-center mx-auto rounded-[100px] h-[43px]'>
           <img src={imgg1} />
           <img src={imgg2} />
           <img src={imgg3} />

@@ -6,6 +6,7 @@ import Sliders from '../components/Sliders'
 import PicBox from '../components/PicBox'
 import Feature from '../components/Feature'
 
+
 const Home = () => {
   return (
     <div>
