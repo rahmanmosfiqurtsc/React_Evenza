@@ -5,6 +5,7 @@ import Scroller from '../components/Scroller'
 import Sliders from '../components/Sliders'
 import PicBox from '../components/PicBox'
 import Feature from '../components/Feature'
+import Benifits from '../components/Benifits'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Sliders />
       <PicBox />
       <Feature />
+      < Benifits />
     </div>
   )
 }
