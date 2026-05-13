@@ -42,7 +42,7 @@ const Feature = () => {
       </div>
       <h5 className='text-white mt-15.5 text-center mx-auto'>Join our team and help weave innovation, quality, and success together worldwide.</h5>
       <div className='text-white mt-5.75 text-center mx-auto flex items-center justify-center gap-3.25 pb-25'>
-        <p>4.9/5</p>
+        <p className='font-bold text-[20px]'>4.9/5</p>
         <div className='flex'>
         <img src={STAR} />
         <img src={STAR} />
@@ -50,7 +50,7 @@ const Feature = () => {
         <img src={STAR} />
         <img src={STAR} />
         </div>
-        <p> Our 4200 Review</p>
+        <p className='font-bold text-[20px]'> Our 4200 Review</p>
 
       </div>
 
