@@ -6,6 +6,8 @@ import Sliders from '../components/Sliders'
 import PicBox from '../components/PicBox'
 import Feature from '../components/Feature'
 import Benifits from '../components/Benifits'
+import Eventschedule from '../components/Eventschedule'
+import DayOne from '../components/DayOne'
 
 
 const Home = () => {
@@ -17,6 +19,7 @@ const Home = () => {
       <PicBox />
       <Feature />
       < Benifits />
+      <Eventschedule />
     </div>
   )
 }

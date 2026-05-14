@@ -13,7 +13,7 @@ const Benifits = () => {
   return (
     <div>
       <div className='container pt-25 flex justify-between gap-15'>
-        <div className='pt-5 w-[705px]'>
+        <div className='pt-5 w-176.25'>
           <div className='flex gap-1.5 items-center pb-2.5'>
             <img src={Dott} />
             <h6 className='font-semibold text-[14px]'>Key Benefits</h6>
@@ -21,16 +21,16 @@ const Benifits = () => {
           <h2 className='font-semibold text-[48px] leading-[52.8px] tracking-[-0.96px] pb-[35.79px]'>Key advantages that ensure your events stand out</h2>
           <div className='border-t border-[#161A2D]/10'>
             <div className='flex justify-between gap-5 pt-10'>
-              <img src={Bnbg2} className='pb-[23px]' />
+              <img src={Bnbg2} className='pb-5.75' />
               <div>
-                <h6 className='font-bold text-[20px] leading-[22px] pb-[9px]'>Expert-Led Keynote Sessions</h6>
+                <h6 className='font-bold text-[20px] leading-5.5 pb-2.25'>Expert-Led Keynote Sessions</h6>
                 <p className='leading-[25.6px] text-[#737681]'>Experience inspiring keynote sessions led by industry experts who share valuable insights, trends, and strategies to help you grow personally and professionally.</p>
               </div>
             </div>
             <div className='flex justify-between gap-5 pt-10'>
-              <img src={Bnbg1} className='pb-[23px]' />
+              <img src={Bnbg1} className='pb-5.75' />
               <div>
-                <h6 className='font-bold text-[20px] leading-[22px] pb-[9px]'>Advanced Event Technology</h6>
+                <h6 className='font-bold text-[20px] leading-5.5 pb-2.25'>Advanced Event Technology</h6>
                 <p className='leading-[25.6px] text-[#737681]'>Experience inspiring keynote sessions led by industry experts who share valuable insights, trends, and strategies to help you grow personally and professionally.</p>
               </div>
             </div>
@@ -39,12 +39,12 @@ const Benifits = () => {
             <img src={Bnbg3} />
           </div>
         </div>
-        <div className='w-[705px]'>
+        <div className='w-176.25'>
           <div className='flex justify-start relative'>
             <img src={Benefitimg1} className='absolute hover:z-10'/>
-            <img src={Benefitimg2} className='absolute left-[256px] top-[202px]' />
-            <img src={Bbfg1} className='absolute left-[556px] top-[11px]' />
-            <img src={Bbfg2} className='absolute left-[100px] top-[500px]' />
+            <img src={Benefitimg2} className='absolute left-64 top-50.5' />
+            <img src={Bbfg1} className='absolute left-139 top-2.75' />
+            <img src={Bbfg2} className='absolute left-25 top-125' />
           </div>
         </div>
       </div>
