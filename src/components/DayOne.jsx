@@ -3,7 +3,7 @@ import Tabpanel from '../assets/Tabpanel.png'
 
 const DayOne = () => {
   return (
-    <div className='h-160.75'>
+    <div className='h-160.75 mx-auto justify-center items-center'>
       <img src={Tabpanel} />
     </div>
   )

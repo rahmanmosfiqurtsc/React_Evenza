@@ -8,6 +8,8 @@ import Feature from '../components/Feature'
 import Benifits from '../components/Benifits'
 import Eventschedule from '../components/Eventschedule'
 import DayOne from '../components/DayOne'
+import Speakers from '../components/Speakers'
+import LargePic from '../components/LargePic'
 
 
 const Home = () => {
@@ -20,6 +22,8 @@ const Home = () => {
       <Feature />
       < Benifits />
       <Eventschedule />
+      <Speakers />
+      <LargePic />
     </div>
   )
 }

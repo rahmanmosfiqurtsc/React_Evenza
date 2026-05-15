@@ -11,11 +11,13 @@ import STAR from '../assets/star.png'
 const Feature = () => {
   return (
     <div className='bg-[url(./assets/ssss.png)] pt-25'>
+      <div className='text-white'>
       <Headed
         para="Core Feature"
         heading="Core features that power our
         exceptional services"
       />
+      </div>
 
       <div className='container flex gap-7.5'>
         <ContentBox

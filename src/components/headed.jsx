@@ -6,10 +6,10 @@ const headed = ({para, heading}) => {
     <div className='text-center'>
       <div className='gap-2.25 flex items-center justify-center'>
         <img src={Dottt} />
-        <h6 className='font-semibold text-[14px] text-white'>{para}</h6>
+        <h6 className='font-semibold text-[14px] '>{para}</h6>
       </div>
       <div>
-      <h1 className='font-semibold text-[48px] text-white leading-[52.8px] tracking-[-0.96px] w-160 mx-auto pt-3.5 pb-21'>{heading}</h1>
+      <h1 className='font-semibold text-[48px] leading-[52.8px] tracking-[-0.96px] w-200 mx-auto pt-3.5 pb-21'>{heading}</h1>
       </div>
     </div>
   )
