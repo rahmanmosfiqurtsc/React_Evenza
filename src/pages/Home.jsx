@@ -10,6 +10,7 @@ import Eventschedule from '../components/Eventschedule'
 import DayOne from '../components/DayOne'
 import Speakers from '../components/Speakers'
 import LargePic from '../components/LargePic'
+import Pricing from '../components/Pricing'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       <Eventschedule />
       <Speakers />
       <LargePic />
+      <Pricing />
     </div>
   )
 }
