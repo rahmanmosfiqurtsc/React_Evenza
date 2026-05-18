@@ -11,6 +11,9 @@ import DayOne from '../components/DayOne'
 import Speakers from '../components/Speakers'
 import LargePic from '../components/LargePic'
 import Pricing from '../components/Pricing'
+import Videopart from '../components/Videopart'
+import Faq from '../components/Faq'
+import AccordionUsage from '../components/AccordionUsage'
 
 
 const Home = () => {
@@ -26,6 +29,9 @@ const Home = () => {
       <Speakers />
       <LargePic />
       <Pricing />
+      <Videopart/>
+      <Faq />
+      
     </div>
   )
 }
